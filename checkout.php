@@ -188,7 +188,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="input-group">
                             <span class="input-group-text"><i class="bi bi-credit-card"></i></span>
                             <input type="text" name="card_number" id="card_number"
-                                   class="form-control" placeholder="1234 5678 9012 3456"
                                    maxlength="19" autocomplete="cc-number" required>
                         </div>
                     </div>
@@ -205,7 +204,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <label class="form-label">CVV</label>
                             <div class="input-group">
                                 <input type="text" name="cvv"
-                                       class="form-control" placeholder="123"
                                        maxlength="3" autocomplete="cc-csc" required>
                                 <span class="input-group-text" 
                                       title="3-digit code on the back of your card">
